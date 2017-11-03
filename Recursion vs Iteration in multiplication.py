@@ -17,6 +17,7 @@ mult_iter(int(input("Enter a: ")),int(input("Enter b: ")))
 def mult_recur(a, b):
     if b == 1:
         return a #base case
+                 #base must be a test which stops recursion
     else:
         return a + mult_recur(a, b-1) #recurcive step 
                                       #invoking function inside function makes recursion
