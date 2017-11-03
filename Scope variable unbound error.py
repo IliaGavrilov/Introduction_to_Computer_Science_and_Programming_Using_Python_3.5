@@ -21,3 +21,7 @@ def h(y): #the value of y being 5
               #I'm referencing it before I've assigned it
     return x
 print(h(x)) #now I call h with 
+
+#the moment in which you declare the variable x within the scope of the function h() 
+#de facto you create a new variable
+#fresh declared variable has no value
