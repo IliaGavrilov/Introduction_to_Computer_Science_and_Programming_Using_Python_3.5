@@ -12,4 +12,3 @@ while itersLeft != 0: #if I'm not down to 0,
     ans = ans + x #I'm going to increase ans by x. 
     itersLeft = itersLeft - 1 #I'm going to decrease the number of steps by 1.
 print(str(x)+"*"+str(x)+"="+str(ans))
-
