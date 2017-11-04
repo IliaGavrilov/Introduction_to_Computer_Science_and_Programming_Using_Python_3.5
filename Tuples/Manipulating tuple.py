@@ -11,12 +11,13 @@ def get_data(aTuple):
     for t in aTuple:
         num=num+(t[0],)
         if t[1] not in words:
-            words=words+(t[1],)
+            words=words+(t[1],) #brackets is what makes tuple be a tuple 
+                                #and comma (,) is what basically makes tuple has a specific element
     min_num=min(num)
     max_num=max(num)
     unique_words=len(words)
     return (min_num, max_num, unique_words)
-small, large, words = get_data(((1, "mine"), 
+(small, large, words) = get_data(((1, "mine"), 
                                 (3, 'yours'), 
                                 (5, 'ours'), 
                                 (7, 'mine'))) #multiple assignment
