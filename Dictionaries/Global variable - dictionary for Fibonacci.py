@@ -37,4 +37,4 @@ numFibCalls=0
 
 d = {1:1, 2:2}
 print(fib_efficient(argToUse, d))
-print('function calls', numFibCalls)
+print('function calls', numFibCalls) #basically global is a way of manipulation with variable outside from the function
