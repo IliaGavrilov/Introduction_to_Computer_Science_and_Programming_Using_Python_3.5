@@ -13,5 +13,5 @@ def average(grades):
                                                   #max_number !=0 <boolean expression> , <comma> 
                                                   #"Cannot divide by 0" <argument>
     return sum(grades) / len(grades)
-L = []
-average(L1)  
+L = [1,2,3,4]
+print(average(L))  
