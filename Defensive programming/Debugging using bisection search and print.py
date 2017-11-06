@@ -4,7 +4,7 @@ Created on Mon May 16 22:41:46 2016
 
 @author: ericgrimson
 """
-
+#Defensive programming
 def isPal(x):
     assert type(x) == list #assert statement at the start of a function checks for valid input
                            #after a function call it's checking for valid output.
