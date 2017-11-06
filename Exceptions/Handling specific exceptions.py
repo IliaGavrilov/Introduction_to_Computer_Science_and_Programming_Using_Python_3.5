@@ -4,7 +4,7 @@ Created on Sun Jul 16 17:12:01 2017
 
 @author: Gavrilov
 """
-#separate exceptclauses to deal with a particular type of exception
+#separate except clauses to deal with a particular type of exception
 while True: 
     try:
         a = int(input("Tell me one number:"))
