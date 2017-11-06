@@ -9,3 +9,4 @@ https://courses.edx.org/certificates/ad01f5738feb41e1bc2fbb2fc95abf49
 Academic credit for this course is available through Charter Oak State College
 
 Turing completeness
+Completed in 2017
