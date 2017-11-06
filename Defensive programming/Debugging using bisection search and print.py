@@ -6,7 +6,8 @@ Created on Mon May 16 22:41:46 2016
 """
 
 def isPal(x):
-    assert type(x) == list
+    assert type(x) == list #assert statement at the start of a function checks for valid input
+                           #after a function call it's checking for valid output.
     temp = x[:]
     print(temp, x) #I'm going to insert a print statement halfway through the code #bisection search
     temp.reverse()
