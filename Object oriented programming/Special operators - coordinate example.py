@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov  7 20:47:32 2017
-
-@author: Gavrilov
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Tue Jul 18 22:28:27 2017
 
 @author: Gavrilov
