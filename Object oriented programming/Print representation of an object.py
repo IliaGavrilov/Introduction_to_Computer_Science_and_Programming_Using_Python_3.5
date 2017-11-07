@@ -19,8 +19,6 @@ class Coordinate(object):
         return "<" + str(self.x) + ", " + str(self.y) + ">" #you choose what it does!
                                                             #all I require is that, how ever I want to define it, 
                                                             #it must return a string.
-    def __sub__(self, other):
-        return Coordinate(self.x - other.x, self.y - other.y) 
 c = Coordinate(3,4) 
 origin = Coordinate(0,0) 
 
