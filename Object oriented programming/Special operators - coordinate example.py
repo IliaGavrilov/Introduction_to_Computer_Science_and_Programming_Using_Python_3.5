@@ -24,7 +24,7 @@ class Coordinate(object):
     def __lt__(self, other): #self < other
         return Coordinate(self.x < other.x, self.y < other.y)
     def __len__(self): #len(self)
-        return len(self.x) + len(self.y)
+        return len(self.x) + len(self.y) #not sure that is correct
 
 c = Coordinate(3,4) 
 origin = Coordinate(4,2)
