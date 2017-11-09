@@ -25,7 +25,8 @@ class Animal(object):
     def setAge(self, new_age):
         self.age = new_age #So if I want to change the age, I can change the binding for age.
                            #I can rebind it to a new value.
-    def setName(self, new_name = ""): #my version of setting the name is not only
+    def setName(self, new_name = ""): #Default arguments for formal parameters are used if no actual argument is given
+                                      #my version of setting the name is not only
                                       #the name of the variable, but I'm going to have 
                                       #a default binding, which is the empty string 
         self.name = new_name #if I don't give it an argument, I'm just going to redefine it 
