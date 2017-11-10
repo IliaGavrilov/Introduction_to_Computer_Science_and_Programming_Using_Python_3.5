@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jul 18 22:28:27 2017
-
 @author: Gavrilov
 """
 
@@ -19,6 +18,10 @@ class Coordinate(object):
         return "<" + str(self.x) + ", " + str(self.y) + ">" #you choose what it does!
                                                             #all I require is that, how ever I want to define it, 
                                                             #it must return a string.
+    def __repr__(self):
+        return "Coordinate(" + str(self.x) + "," + str(self.y) +")" #printable representation of the object
+                                               #__repr__ is more for developers while __str__ is for end users.
+    
 c = Coordinate(3,4) 
 origin = Coordinate(0,0) 
 
@@ -28,3 +31,4 @@ print(type(c)) #It says C is an instance of a class, and the class type is coord
 print(Coordinate, type(Coordinate)) 
 print(isinstance(c, Coordinate)) #One of the other things I might want to do is to know what kind of thing is this.
                                  #Do I have something that is an instance of a coordinate?
+print(Coordinate.__repr__(c))
